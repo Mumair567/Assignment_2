@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="cart.css">
+   
+    <title>Shopping cart</title>
+ 
+	<p><a href="index.html"> Home</a></p>
+</head>
+<body>
+	
+    <div class="container">
+        <h1>Shopping Cart</h1>
+
+       
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Amount</td>
+                    <td id="cart-total">$0.00</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+
+     
+        <button id="proceed-to-payment">Proceed to Payment</button>
+
+       
+        
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
